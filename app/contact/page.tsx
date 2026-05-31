@@ -66,8 +66,8 @@ export default function ContactPage() {
               <div className="space-y-5">
                 {[
                   { label: "Email", value: "whitedarlene294@gmail.com", href: "mailto:whitedarlene294@gmail.com" },
-                  { label: "Address", value: "3601 27th Ave S\nSt. Petersburg, FL 33711", href: null },
-                  { label: "APD Region", value: "Suncoast — Pinellas County", href: null },
+                  { label: "Address", value: "3601 27th Ave S\nTampa, FL 33711", href: null },
+                  { label: "APD Region", value: "Tampa Bay — Hillsborough County", href: null },
                   { label: "Website", value: "forever-thriven.com", href: null },
                 ].map((item) => (
                   <div key={item.label} className="border-l-2 border-cyan pl-5">
@@ -90,7 +90,7 @@ export default function ContactPage() {
                   APD Support Coordinators
                 </h3>
                 <p className="font-sans text-white/50 text-xs leading-relaxed">
-                  We maintain active referral relationships with APD coordinators throughout Pinellas County. We understand your documentation requirements and make the referral process straightforward.
+                  We maintain active referral relationships with APD coordinators throughout Hillsborough County. We understand your documentation requirements and make the referral process straightforward.
                 </p>
               </div>
 

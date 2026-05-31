@@ -280,7 +280,7 @@ export default function GetStartedPage() {
                   <div>
                     <span className="text-[10px] uppercase tracking-wider text-navy/30 font-sans block mb-1">Location</span>
                     <span className="font-sans text-sm text-navy/60">
-                      3601 27th Ave S<br />St. Petersburg, FL 33711
+                      3601 27th Ave S<br />Tampa, FL 33711
                     </span>
                   </div>
                 </div>

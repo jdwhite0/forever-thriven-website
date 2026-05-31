@@ -91,7 +91,7 @@ export default function WhoWeServePage() {
               {
                 number: "06",
                 title: "APD-Referred Adults",
-                desc: "Individuals referred through the Florida Agency for Persons with Disabilities and their support coordinators, seeking behavioral health day programming in Pinellas County.",
+                desc: "Individuals referred through the Florida Agency for Persons with Disabilities and their support coordinators, seeking behavioral health day programming in Hillsborough County.",
               },
             ].map((item) => (
               <div key={item.number} className="card-lift bg-white border border-light-gray rounded-sm p-7">
@@ -186,7 +186,7 @@ export default function WhoWeServePage() {
             <div className="card-lift bg-off-white border border-light-gray rounded-sm p-8 md:p-10">
               <h3 className="font-serif text-2xl text-navy mb-4">For Support Coordinators</h3>
               <p className="font-sans text-navy/60 text-sm leading-relaxed mb-6">
-                We actively build and maintain referral relationships with APD support coordinators throughout Pinellas County and the greater Tampa Bay region. We understand your documentation needs, waiver requirements, and expectations for quality care.
+                We actively build and maintain referral relationships with APD support coordinators throughout Hillsborough County and the greater Tampa Bay region. We understand your documentation needs, waiver requirements, and expectations for quality care.
               </p>
               <ul className="space-y-2 mb-6">
                 {[

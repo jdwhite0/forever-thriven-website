@@ -31,7 +31,7 @@ export default function HomePage() {
             <div className="inline-flex items-center gap-2 bg-cyan/10 border border-cyan/30 rounded-full px-4 py-1.5 mb-8 animate-fade-in-up">
               <span className="w-1.5 h-1.5 rounded-full bg-cyan animate-pulse" />
               <span className="text-cyan text-xs font-sans font-semibold tracking-widest uppercase">
-                Now Accepting Participants · St. Petersburg, FL
+                Now Accepting Participants · Tampa, FL
               </span>
             </div>
 
@@ -325,7 +325,7 @@ export default function HomePage() {
               {
                 icon: "🌍",
                 title: "Community-Rooted",
-                desc: "Based in St. Petersburg with deep ties to Pinellas County's APD network, healthcare providers, and community organizations.",
+                desc: "Based in Tampa with deep ties to Hillsborough County's APD network, healthcare providers, and community organizations.",
               },
             ].map((item) => (
               <div key={item.title} className="card-lift bg-white border border-light-gray rounded-sm p-6">

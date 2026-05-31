@@ -19,19 +19,19 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "Thrive Ability, LLC — Adult Behavioral Health Day Program | St. Petersburg, FL",
+    default: "Thrive Ability, LLC — Adult Behavioral Health Day Program | Tampa, FL",
     template: "%s | Thrive Ability, LLC",
   },
   description:
-    "Thrive Ability, LLC is a licensed adult day program for behavioral health in St. Petersburg, Florida — providing structured support, skill building, therapy, and community integration for adults 18+.",
+    "Thrive Ability, LLC is a licensed adult day program for behavioral health in Tampa, Florida — providing structured support, skill building, therapy, and community integration for adults 18+.",
   keywords: [
     "adult day program",
     "behavioral health",
     "behavioral health day program",
     "adult day treatment",
     "mental health services",
-    "St. Petersburg FL",
-    "Pinellas County",
+    "Tampa, FL",
+    "Hillsborough County",
     "APD",
     "developmental disabilities",
     "Thrive Ability",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Thrive Ability, LLC — Where Ability Meets Opportunity",
     description:
-      "Licensed adult behavioral health day program in St. Petersburg, FL. Structured support, therapy, skill building, and community integration for adults 18+.",
+      "Licensed adult behavioral health day program in Tampa, FL. Structured support, therapy, skill building, and community integration for adults 18+.",
     type: "website",
     locale: "en_US",
   },

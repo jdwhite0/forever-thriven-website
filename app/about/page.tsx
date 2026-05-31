@@ -52,7 +52,7 @@ export default function AboutPage() {
                   So she and her son Jerry built the answer.
                 </p>
                 <p>
-                  Thrive Ability, LLC is a licensed adult day program for behavioral health in St. Petersburg — built specifically for adults who have the potential to grow but need the right environment to do it. Structured. Therapeutic. Community-rooted. Human.
+                  Thrive Ability, LLC is a licensed adult day program for behavioral health in Tampa — built specifically for adults who have the potential to grow but need the right environment to do it. Structured. Therapeutic. Community-rooted. Human.
                 </p>
                 <p>
                   Not a holding space. A program with a purpose.
@@ -68,7 +68,7 @@ export default function AboutPage() {
                   {[
                     { label: "Type", value: "Adult Day Program — Behavioral Health" },
                     { label: "Founded By", value: "Jerry & Darlene White" },
-                    { label: "Location", value: "St. Petersburg, Florida" },
+                    { label: "Location", value: "Tampa, Florida" },
                     { label: "Experience", value: "20+ years in social services" },
                     { label: "Structure", value: "Family-owned LLC" },
                     { label: "Regulatory", value: "Florida APD / AHCA" },

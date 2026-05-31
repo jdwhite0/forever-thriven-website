@@ -167,7 +167,7 @@ export default function ProgramsPage() {
                   },
                   {
                     title: "Community Outings",
-                    desc: "Organized outings and activities that integrate participants into the broader St. Petersburg community.",
+                    desc: "Organized outings and activities that integrate participants into the broader Tampa community.",
                   },
                   {
                     title: "Peer Support",

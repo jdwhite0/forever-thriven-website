@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <ThriveAbilityLogo className="mb-5" />
             <p className="text-sm leading-relaxed text-white/50 font-sans">
-              A licensed adult day program for behavioral health — providing structured support, skill building, and community integration for adults in St. Petersburg, Florida.
+              A licensed adult day program for behavioral health — providing structured support, skill building, and community integration for adults in Tampa, Florida.
             </p>
             <div className="mt-5 flex items-center gap-2">
               <span className="inline-block w-2 h-2 rounded-full bg-cyan animate-pulse-slow" />
@@ -53,7 +53,7 @@ export default function Footer() {
               <li className="text-sm font-sans text-white/50">
                 <span className="block text-white/30 text-xs uppercase tracking-wider mb-0.5">Address</span>
                 3601 27th Ave S<br />
-                St. Petersburg, FL 33711
+                Tampa, FL 33711
               </li>
               <li className="text-sm font-sans">
                 <span className="block text-white/30 text-xs uppercase tracking-wider mb-0.5">Email</span>
@@ -66,7 +66,7 @@ export default function Footer() {
               </li>
               <li className="text-sm font-sans text-white/50">
                 <span className="block text-white/30 text-xs uppercase tracking-wider mb-0.5">Region</span>
-                Suncoast — Pinellas County, FL
+                Tampa Bay — Hillsborough County, FL
               </li>
             </ul>
           </div>
@@ -77,7 +77,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Thrive Ability, LLC. All rights reserved.
           </p>
           <p className="text-xs font-sans text-white/25">
-            Florida Agency for Persons with Disabilities (APD) · Pinellas County
+            Florida Agency for Persons with Disabilities (APD) · Hillsborough County
           </p>
         </div>
       </div>
