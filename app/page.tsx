@@ -10,7 +10,7 @@ export default function HomePage() {
         {/* Background photo */}
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?auto=format&fit=crop&w=1920&q=85"
+            src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&w=1920&q=85"
             alt="Diverse adults in a welcoming program environment"
             fill
             className="object-cover"
@@ -123,7 +123,7 @@ export default function HomePage() {
             {/* Photo */}
             <div className="photo-card rounded-sm overflow-hidden aspect-[4/3] relative shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=85"
+                src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&w=1200&q=85"
                 alt="Diverse adults in a supportive community setting"
                 fill
                 className="object-cover"
@@ -186,19 +186,19 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
               {
-                photo: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=800&q=85",
+                photo: "https://images.unsplash.com/photo-1543269664-647163eb4ee9?auto=format&fit=crop&w=800&q=85",
                 alt: "Group therapy session with diverse adults",
                 label: "Group Therapy & Skills",
                 desc: "Evidence-based group sessions focused on coping, communication, and emotional regulation.",
               },
               {
-                photo: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=85",
+                photo: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=85",
                 alt: "Mindfulness and wellness activity",
                 label: "Wellness & Mindfulness",
                 desc: "Therapeutic activities including mindfulness, recreational therapy, and stress management.",
               },
               {
-                photo: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=85",
+                photo: "https://images.unsplash.com/photo-1571019614098-06bde67e6b3a?auto=format&fit=crop&w=800&q=85",
                 alt: "Active community group activity",
                 label: "Life Skills Training",
                 desc: "Practical skills for independent living — hygiene, cooking, money management, job readiness.",
@@ -284,7 +284,7 @@ export default function HomePage() {
             {/* Photo */}
             <div className="photo-card rounded-sm overflow-hidden aspect-[4/3] relative shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1200&q=85"
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=85"
                 alt="Professional behavioral health staff member"
                 fill
                 className="object-cover"
@@ -342,7 +342,7 @@ export default function HomePage() {
       <section className="relative py-24 md:py-36 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1920&q=85"
+            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1920&q=85"
             alt="Modern, welcoming program space"
             fill
             className="object-cover"

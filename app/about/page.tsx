@@ -15,7 +15,7 @@ export default function AboutPage() {
       <section className="relative py-24 md:py-36 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1920&q=85"
+            src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&w=1920&q=85"
             alt="Diverse adults in a welcoming community setting"
             fill
             className="object-cover"
@@ -93,7 +93,7 @@ export default function AboutPage() {
       {/* Photo break */}
       <section className="relative h-64 md:h-80 overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=1920&q=85"
+          src="https://images.unsplash.com/photo-1543269664-647163eb4ee9?auto=format&fit=crop&w=1920&q=85"
           alt="Group support session with engaged participants"
           fill
           className="object-cover object-top"

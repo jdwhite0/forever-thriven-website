@@ -15,7 +15,7 @@ export default function ProgramsPage() {
       <section className="relative py-24 md:py-36 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1920&q=85"
+            src="https://images.unsplash.com/photo-1571019614098-06bde67e6b3a?auto=format&fit=crop&w=1920&q=85"
             alt="Active group wellness program"
             fill
             className="object-cover object-center"
@@ -65,7 +65,7 @@ export default function ProgramsPage() {
             {/* Featured photo card */}
             <div className="photo-card rounded-sm overflow-hidden aspect-[4/3] relative shadow-lg lg:row-span-2">
               <Image
-                src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=1200&q=85"
+                src="https://images.unsplash.com/photo-1543269664-647163eb4ee9?auto=format&fit=crop&w=1200&q=85"
                 alt="Group therapy session in a supportive setting"
                 fill
                 className="object-cover"
@@ -112,19 +112,19 @@ export default function ProgramsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
-                photo: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=85",
+                photo: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=85",
                 alt: "Mindfulness and wellness activity",
                 title: "Life Skills Training",
                 desc: "Hygiene, meal preparation, money management, time management, and other practical skills for independent living.",
               },
               {
-                photo: "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?auto=format&fit=crop&w=800&q=85",
+                photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=85",
                 alt: "Hands-on vocational activity",
                 title: "Job Readiness",
                 desc: "Resume building, interview preparation, workplace behavior, and supported employment opportunities for participants ready to work.",
               },
               {
-                photo: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=85",
+                photo: "https://images.unsplash.com/photo-1531706680410-e7b80e03e039?auto=format&fit=crop&w=800&q=85",
                 alt: "Wellness and self-care activity",
                 title: "Wellness & Recreational Therapy",
                 desc: "Therapeutic recreational activities including mindfulness, exercise, art therapy, and stress management programs.",
@@ -192,7 +192,7 @@ export default function ProgramsPage() {
             </div>
             <div className="photo-card rounded-sm overflow-hidden aspect-[4/3] relative shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?auto=format&fit=crop&w=1200&q=85"
+                src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&w=1200&q=85"
                 alt="Adults engaged in community activity"
                 fill
                 className="object-cover"

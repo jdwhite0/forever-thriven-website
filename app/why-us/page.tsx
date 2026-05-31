@@ -15,7 +15,7 @@ export default function WhoWeServePage() {
       <section className="relative py-24 md:py-36 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1920&q=85"
+            src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=1920&q=85"
             alt="Adult in a peaceful, therapeutic setting"
             fill
             className="object-cover"
@@ -140,7 +140,7 @@ export default function WhoWeServePage() {
             </div>
             <div className="photo-card rounded-sm overflow-hidden aspect-[4/3] relative shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?auto=format&fit=crop&w=1200&q=85"
+                src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&w=1200&q=85"
                 alt="Participants engaged in a group program session"
                 fill
                 className="object-cover"
