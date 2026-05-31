@@ -123,8 +123,8 @@ export default function HomePage() {
             {/* Photo */}
             <div className="photo-card rounded-sm overflow-hidden aspect-[4/3] relative shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&w=1200&q=85"
-                alt="Diverse adults in a supportive community setting"
+                src="https://images.unsplash.com/photo-1541199249251-f713e6145474?auto=format&fit=crop&w=1200&q=85"
+                alt="Person visibly struggling with mental health challenges"
                 fill
                 className="object-cover"
               />

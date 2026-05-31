@@ -15,8 +15,8 @@ export default function AboutPage() {
       <section className="relative py-24 md:py-36 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&w=1920&q=85"
-            alt="Diverse adults in a welcoming community setting"
+            src="https://images.unsplash.com/photo-1516534775068-ba3e7458af70?auto=format&fit=crop&w=1920&q=85"
+            alt="Adult sitting alone, visibly struggling with emotional pain"
             fill
             className="object-cover"
             priority
