@@ -18,6 +18,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://thrive-abilities.com"),
+  alternates: { canonical: "/" },
   title: {
     default: "Thrive Ability, LLC — Adult Behavioral Health Day Program | Tampa, FL",
     template: "%s | Thrive Ability, LLC",
