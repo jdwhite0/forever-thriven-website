@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { canonicalUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About — Built by Family, For People Who Need More",
   description:
     "Darlene and Jerry White founded Thrive Ability, LLC after 20+ years of social services experience. Learn the story behind Florida's family-owned behavioral health day program.",
+  alternates: { canonical: canonicalUrl("/about") },
 };
 
 export default function AboutPage() {

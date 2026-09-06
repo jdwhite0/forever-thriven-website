@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ThriveAbilityLogoLarge } from "@/components/ThriveAbilityLogo";
+import { canonicalUrl } from "@/lib/site";
+
+export const metadata: Metadata = {
+  alternates: { canonical: canonicalUrl("/") },
+};
 
 export default function HomePage() {
   return (

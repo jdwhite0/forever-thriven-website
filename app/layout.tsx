@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import { SITE_URL } from "@/lib/site";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -52,8 +53,7 @@ const jsonLd = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://thrive-abilities.com"),
-  alternates: { canonical: "/" },
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Thrive Ability, LLC — Adult Behavioral Health Day Program | Tampa, FL",
     template: "%s | Thrive Ability, LLC",
