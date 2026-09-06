@@ -1,15 +1,14 @@
-import type { MetadataRoute } from 'next'
+import type { MetadataRoute } from "next";
+import { canonicalUrl } from "@/lib/site";
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://thrive-abilities.com'
-
-const routes = ['', '/about', '/services', '/why-us', '/get-started', '/contact']
+const routes = ["/", "/about", "/services", "/why-us", "/get-started", "/contact"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date()
+  const now = new Date();
   return routes.map((r) => ({
-    url: `${SITE}${r}`,
+    url: canonicalUrl(r),
     lastModified: now,
-    changeFrequency: r === '' ? 'weekly' : 'monthly',
-    priority: r === '' ? 1 : 0.7,
-  }))
+    changeFrequency: r === "/" ? "weekly" : "monthly",
+    priority: r === "/" ? 1 : 0.7,
+  }));
 }

@@ -2,10 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
+import { canonicalUrl } from "@/lib/site";
+
 export const metadata: Metadata = {
   title: "Programs — Comprehensive Behavioral Health Day Programming",
   description:
     "Thrive Ability offers group therapy, skills training, medication monitoring, transportation, and community integration — all in a structured adult day program.",
+  alternates: { canonical: canonicalUrl("/services") },
 };
 
 export default function ProgramsPage() {

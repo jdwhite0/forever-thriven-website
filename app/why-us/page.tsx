@@ -2,10 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
+import { canonicalUrl } from "@/lib/site";
+
 export const metadata: Metadata = {
   title: "Who We Serve — Adults Ready for Structure, Support & Growth",
   description:
     "Thrive Ability serves adults 18+ with mental health diagnoses, behavioral health needs, developmental disabilities, and those transitioning from inpatient care.",
+  alternates: { canonical: canonicalUrl("/why-us") },
 };
 
 export default function WhoWeServePage() {
